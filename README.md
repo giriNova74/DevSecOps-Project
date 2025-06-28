@@ -1,3 +1,40 @@
+# My DevSecOps Netflix Clone Project
+
+**Forked and adapted from [N4si/DevSecOps-Project](https://github.com/N4si/DevSecOps-Project)**
+
+This repository demonstrates an end-to-end DevSecOps pipeline for deploying a Netflix-like application. This project was undertaken to deepen my understanding of integrating security practices throughout the CI/CD lifecycle, leveraging various industry-standard tools for automation, security scanning, deployment, and monitoring.
+
+## Project Overview
+
+This project builds upon the excellent foundation provided by N4si's DevSecOps Project. It details the process of:
+
+1.  **Setting up a CI/CD pipeline** with Jenkins.
+2.  **Integrating security tools** (SonarQube, Trivy, OWASP Dependency-Check) for static code analysis, container image scanning, and dependency vulnerability checks.
+3.  **Containerizing** the Node.js Netflix clone application using Docker.
+4.  **Deploying** the application to a Kubernetes cluster (e.g., AWS EKS).
+5.  **Monitoring** the application and infrastructure using Prometheus and Grafana.
+
+My objective in replicating and enhancing this project was to gain hands-on experience with each component of a modern DevSecOps workflow, from code commit to secure production deployment and ongoing monitoring.
+
+## Key Technologies Used
+
+* **Version Control:** Git, GitHub
+* **CI/CD:** Jenkins, Jenkins Pipelines
+* **Containerization:** Docker
+* **Container Orchestration:** Kubernetes (EKS - Amazon Elastic Kubernetes Service)
+* **Security Tools:**
+    * **SonarQube:** Static Application Security Testing (SAST) and Code Quality
+    * **Trivy:** Container Image Vulnerability Scanning
+    * **OWASP Dependency-Check:** Software Composition Analysis (SCA) for third-party libraries
+* **Monitoring & Alerting:**
+    * **Prometheus:** Time-series monitoring and alerting
+    * **Grafana:** Data visualization and dashboarding
+* **Cloud Platform:** AWS (EC2, EKS, IAM, etc.)
+* **Application:** Node.js (Netflix clone)
+
+
+
+
 <div align="center">
   <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
 
@@ -14,13 +51,7 @@
   <p align="center">Home Page</p>
 </div>
 
-# **Youtube Video for step by step Demonstration!**
-[![Video Tutorial](https://img.youtube.com/vi/g8X5AoqCJHc/0.jpg)](https://youtu.be/g8X5AoqCJHc)
 
-
-## Susbcribe:
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
